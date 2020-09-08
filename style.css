@@ -1,0 +1,17 @@
+.hide{
+    display: none;
+}
+.car{
+    width: 50px;
+    height: 120px;
+    background: transparent url(./image/Race1.png) center / cover no-repeat;
+}
+
+.start{    
+    background: rgb(67, 219, 67);
+    width: 50px;
+    color: black;
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 15px;
+}
