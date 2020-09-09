@@ -1,0 +1,39 @@
+.hide{
+    display: none;
+}
+.car, .enemy{
+    width: 50px;
+    height: 120px;
+    background: transparent url(../image/Race1.png) center / cover no-repeat;
+    position: absolute;
+    left: 125px;
+    bottom: 10px;
+
+}
+
+.start{    
+    background: rgb(67, 219, 67);
+    /* width: 50px; */
+    color: black;
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.gameArea {
+    width: 300px;
+    height: 100vh;
+    position: relative;
+    margin: auto;
+    background: rgb(41, 39, 39);
+    overflow: hidden;
+}
+
+
+.line {
+    position: absolute;
+    width: 10px;
+    height: 50px;
+    background: #fff;
+    left: 145px;
+}
